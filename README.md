@@ -3,7 +3,9 @@
 
 ## Getting Started
 
-These code will enable calculating Local Moran's I of geospatial data using JS.
+These code will enable calculating Local Moran's I of geospatial data using JS. The data can be a vectors set.
+![example](https://user-images.githubusercontent.com/19661375/38649584-5d0cb6d4-3dac-11e8-8d47-c648338a4013.png)
+
 
 test code can be found in client/page1/index.js
 
