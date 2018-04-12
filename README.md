@@ -1,13 +1,13 @@
-# stable version K-means
+# Local Moran's I using JS
 
 
 ## Getting Started
 
-These code will enable a stable version k-means algorithm using JS. Technically, we select the best classification result from several k-means results.
+These code will enable calculating Local Moran's I of geospatial data using JS.
 
 test code can be found in client/page1/index.js
 
-core code can be found in client/page1/k-means.js
+core code can be found in client/page1/Local_Morans_I.js
 
 ## Installing
 to develop with full live reload. use:
@@ -18,7 +18,6 @@ npm start
 
 ## Calculating Local Moran's I
 usage:
-
 
 ```
 let LMI = require("./Local_Morans_I.js");
