@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>page2</title>
+    <% if (env === "production") { %>
+        <link rel="stylesheet" href="/page2/index.css">
+    <% } %>
+</head>
+<body>
+    <div>page2</div>
+    <script src="/page2/bundle.js"></script>
+    <% if (env !== "production" && reload === true) { %>
+        <script src="/reload/reload.js"></script>
+    <% } %>
+</body>
+</html>
